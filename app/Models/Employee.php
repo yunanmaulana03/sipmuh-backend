@@ -34,5 +34,5 @@ class Employee extends Model
     public function role()
     {
         return $this->belongsTo(Role::class);
-    }
+    } 
 }
